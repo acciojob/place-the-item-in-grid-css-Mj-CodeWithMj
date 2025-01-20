@@ -1,54 +1,5 @@
-/*  your css code here. If applicable */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
-.header {
-    background-color: #011e29;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-.container {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px auto;
-    max-width: 1200px;
-}
-.latest-news-section {
-    background-color: white;
-    padding: 15px;
-    width: 25%;
-	height:25%;
-    text-align: center;
-
-}
-
-/* Main Article Section */
-.main-article-section {
-    background-color: white;
-    padding: 15px;
-    width: 40%;
-	height:70%;
-    text-align: center;
-    border-radius: 10px;
-}
-
-/* Pictorial News Section */
-.pictorial-news-section {
-    background-color: white;
-    padding: 15px;
-    width: 25%;
-    text-align: center;
-    border-radius: 8px;
-}
-
-.pictorial-news-section img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 8px;
+.holder{
+	display: grid;
+	grid-template-rows: repeat(2, 100px);
+	grid-template-columns: repeat(2, 100px);
 }
